@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+}
+
+.app-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-header, .app-footer {
+  background: #333;
+  color: white;
+  padding: 10px;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-main {
+  flex: 1;
+  padding: 20px;
+}
+
+.center {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: left;
+}
+
+.card {
+  background: white;
+  border-radius: 6px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.form label {
+  display: block;
+  margin-top: 10px;
+}
+
+.form input, .form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+}
+
+button, .btn, .link-btn {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button:hover, .btn:hover, .link-btn:hover {
+  background: #145ea8;
+}
+
+.error {
+  color: red;
+}
+
+.toolbar {
+  margin-bottom: 10px;
+}
+
+.tickets-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.tickets-table th, .tickets-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.tickets-table th {
+  background: #eee;
+}
